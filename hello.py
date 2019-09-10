@@ -1,0 +1,8 @@
+# Write your code here :-)
+print("========================")
+print("|     Hello World     |")
+print("|       by Brad       |")
+print("========================")
+print("")
+name = input("What is Your name? ")
+print(f"Hello {name}")

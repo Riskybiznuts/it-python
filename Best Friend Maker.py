@@ -1,0 +1,8 @@
+print("BEST FRIEND MAKER")
+print("")
+print ("Hi. I am your computer.")
+name = input("What is Your name? ")
+color = input(f"Hi {name}! What's your favorite color?")
+print(f"You are an idiot! {color} is the worst color")
+movie = input("Ok idiot, What's your favorite movie?")
+print(f"What!?! {movie} isn't my favorite movie. I have your family held hostage in my basement. If you don't give me $100,000,000.00 in vbucks, they will die!")
