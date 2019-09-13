@@ -1,3 +1,4 @@
+
 def banner(title , author):
     title_length = len(title)
     byline = f"By {author}"
