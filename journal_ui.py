@@ -4,7 +4,7 @@ from banner import banner
 banner("DEEP THOUGHTS" , "URGOD")
 
 def main():
-    run_event_loop()
+    run_event_loop main():
 
 def run_event_loop():
     filename = "default"
