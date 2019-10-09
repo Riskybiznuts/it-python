@@ -1,10 +1,14 @@
+from banner import banner
 from math import sqrt
-print("Input lengths of shorter triangle sides:")
+banner("PYTHAGOREAN CALCULATOR" , "By BRAD")
+print("We will help you find the missing side of a right triangle. The lengths of the two legs are 'a' and 'b', and the length of the hypotenuse is 'c'.")
+print("")
 
 
 go_again = True
 while go_again:
-
+    print("Please enter the length of each side, or leave it blank if you don't know.")
+    print("")
     a = input("a: ")
     b = input("b: ")
     c = input("c: ")
@@ -29,8 +33,6 @@ while go_again:
     if input("would you like to calculate another triangle (Y/N)?") == "Y":
         go_again = True
 print("Thank you for using the Pythagorean Calculator.")
-
-
 
 
 
